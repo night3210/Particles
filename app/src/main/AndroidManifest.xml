@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.example.mirash.particles"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="ExampleListActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".example.OneShotSimpleExampleActivity"/>
+        <activity android:name=".example.FireworksExampleActivity"/>
+        <activity android:name=".example.OneShotAdvancedExampleActivity"/>
+        <activity android:name=".example.EmiterSimpleExampleActivity"/>
+        <activity android:name=".example.EmiterBackgroundSimpleExampleActivity"/>
+        <activity android:name=".example.EmiterIntermediateExampleActivity"/>
+        <activity android:name=".example.EmiterTimeLimitedExampleActivity"/>
+        <activity android:name=".example.AnimatedParticlesExampleActivity"/>
+        <activity android:name=".example.ConfettiExampleActivity"/>
+        <activity android:name=".example.DustExampleActivity"/>
+        <activity android:name=".example.StarsExampleActivity"/>
+        <activity android:name=".example.FollowCursorExampleActivity"/>
+        <activity android:name=".example.EmiterWithGravityExampleActivity"/>
+        <activity android:name=".mirash.confetti.AmirashActivity"/>
+        <activity android:name=".mirash.particle.MirashParticleActivity"/>
+    </application>
+
+</manifest>
